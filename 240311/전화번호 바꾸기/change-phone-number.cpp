@@ -3,10 +3,12 @@ using namespace std;
 
 
 int main() {
-    int x,y;
+    int a, x,y;
+  /*  cin.get();
     cin.get();
     cin.get();
-    cin.get();
+    cin.get();*/
+    cin>> a;
     cin.get();
     cin>> x;
     cin.get();
