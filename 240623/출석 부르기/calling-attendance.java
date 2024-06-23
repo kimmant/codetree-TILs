@@ -12,7 +12,7 @@ public class Main {
             System.out.println("Tom");
         }
 
-        else
+        else if (a == 3 )
         System.out.println("Paul");
     }
 }
