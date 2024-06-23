@@ -12,9 +12,9 @@ public class Main {
 
         if (a % 3 == 0) {
           a/=3;  
-          System.out.println(a);
+          
         }
 
-        
+        System.out.println(a);
     }
 }
