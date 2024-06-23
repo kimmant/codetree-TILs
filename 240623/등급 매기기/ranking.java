@@ -17,7 +17,7 @@ public class Main {
         else if (a >= 60 )
             System.out.println("D");
 
-        else if (a < 60 )
+        else 
             System.out.println("F");
 
     }
