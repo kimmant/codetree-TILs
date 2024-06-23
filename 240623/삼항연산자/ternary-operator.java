@@ -8,7 +8,7 @@ public class Main {
         a = sc.nextInt();
        
 
-        b = a <= 100 ? "pass" : "failure";
+        b = a == 100 ? "pass" : "failure";
 
         System.out.println(b);
     }
