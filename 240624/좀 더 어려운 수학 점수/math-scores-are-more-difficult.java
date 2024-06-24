@@ -10,12 +10,12 @@ public class Main {
 
        
 
-         if(m1>m2 )
+         if( m1>m2 )
             System.out.println("A");
-         else if(m1<m2)
-             System.out.println("B");
+         else if( m1<m2)
+            System.out.println("B");
 
-         else if(m1==m2 || e1>e2)
+         else if(m1==m2 && e1 > e2)
             System.out.println("A");
          else
             System.out.println("B");
