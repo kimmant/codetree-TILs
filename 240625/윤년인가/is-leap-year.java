@@ -6,12 +6,11 @@ public class Main {
         int a = sc.nextInt();
         
 
-     if  (a%4==0){
-             System.out.println("ture");
-             if((a % 100 == 0 && a % 400 != 0 )){
-                System.out.println("false");
+     if  ((a%4==0)&&(a % 100 == 0 && a % 400 == 0 )){
+              System.out.println("ture");
+            
              }
-     }
+     
      else {
              System.out.println("false");
      }
