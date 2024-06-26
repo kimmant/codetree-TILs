@@ -26,7 +26,6 @@ public class Main {
             else {
                 System.out.println("31");
             }
-            System.out.println("false");
         }
     }
 }
