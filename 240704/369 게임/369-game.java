@@ -15,7 +15,7 @@ public class Main {
 
         
          while (i <= n) {
-            if (i % 3 == 0) {
+            if (i % 3 == 0||(i / 10) % 3 ==0 || (i%10) %3 ==0) {
                 System.out.print(0 + " ");
             } 
             else {
