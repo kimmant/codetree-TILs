@@ -13,15 +13,16 @@ public class Main {
 
 
 
-        // 출력
-        while( i <= n) {
-            
-            if(i % 3 == 0){
-              System.out.print(0 + " ");
-              i++;}
-            else{
-              System.out.print(i + " "); 
-              i ++;}
+        
+         while (i <= n) {
+            if (i % 3 == 0) {
+                System.out.print(0 + " ");
+            } 
+            else {
+                System.out.print(i + " ");
+            }
+            i++;
+        
         }
     }
 }
