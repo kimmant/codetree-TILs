@@ -17,7 +17,7 @@ public class Main {
             sum +=i;    
         }
         else{
-             for(int i=a ; i <=b ; i++){
+             for(int i=b ; i <=a ; i++){
               if( i%5 ==0)
              sum +=i;    
             }
